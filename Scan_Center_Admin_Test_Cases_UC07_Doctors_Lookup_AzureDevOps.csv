@@ -128,3 +128,8 @@
 "","","","3","Click 'New Doctor'.","","","",""
 "","","","4","Enter Doctor Name (En) 'Sandra Nabil', Doctor Name (Ar) 'ساندرا نبيل', Doctor Specialty 'Dermatology'.","","","",""
 "","","","5","Click 'Save'.","The doctor is saved and the doctors list shows two doctors named 'Sandra Nabil' (ENT and Dermatology).","","",""
+"","Test Case","UC07-[Add Doctor]-TC26-Verify that typing in the Doctor Specialty list filters the specialties","","","","","","Design"
+"","","","1","Preconditions: • The user is logged in as Admin with the necessary access rights. • The user is active. • 12 doctors exist, including Ahmed Zaher / 'أحمد زاهر' (Abdominal Imaging), Sandra Nabil / 'ساندرا نبيل' (ENT) and Hussien Ali / 'حسين علي' (ENT). • Doctor specialties ENT, Dermatology and Abdominal Imaging exist. • Hussien Ali has no schedules.","","","",""
+"","","","2","Open Manage Doctors Lookup module.","","","",""
+"","","","3","Click 'New Doctor'.","","","",""
+"","","","4","Open the Doctor Specialty list and type 'Derm'.","Only specialties whose name contains 'Derm' are listed, including Dermatology. ENT and Abdominal Imaging are not listed.","","",""
