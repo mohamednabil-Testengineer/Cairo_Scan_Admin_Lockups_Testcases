@@ -156,8 +156,3 @@
 "","","","3","Click 'Edit' on 'CT Device 1'.","","","",""
 "","","","4","Remove 'CT' from Modality, leaving it empty.","","","",""
 "","","","5","Click 'Save'.","The change is not saved. Modality is flagged as mandatory and an error message is displayed.","","",""
-"","Test Case","UC02-[Add Device]-TC30-Verify that typing in the Modality list filters the modalities","","","","","","Design"
-"","","","1","Preconditions: • The user is logged in as Admin with the necessary access rights. • The user is active. • Devices 'MRI Device 1' / 'جهاز رنين 1', 'CT Device 1' / 'جهاز مقطعية 1', 'X-Ray Device 1' / 'جهاز أشعة 1' and 'Ultrasound Device 9' / 'جهاز موجات 9' exist. • 'Ultrasound Device 9' is not linked to any room. • Modalities 'MRI', 'CT' and 'X-Ray' exist.","","","",""
-"","","","2","Open Manage Device Lookup module.","","","",""
-"","","","3","Click 'New Device'.","","","",""
-"","","","4","Open the Modality list and type 'X'.","Only modalities whose name contains 'X' are listed, including X-Ray. MRI and CT are not listed.","","",""

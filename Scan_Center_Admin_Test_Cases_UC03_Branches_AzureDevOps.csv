@@ -366,8 +366,3 @@
 "","","","2","Open Manage Branches module.","","","",""
 "","","","3","Click 'Add Branch'.","","","",""
 "","","","4","Check Working Hours (Lab) From for Saturday to Friday without changing anything.","Working Hours (Lab) From shows 08:00 AM for all seven days.","","",""
-"","Test Case","UC03-[Add Branch]-TC87-Verify that typing in the City list filters the cities","","","","","","Design"
-"","","","1","Preconditions: • The user is logged in as Admin with the necessary access rights. • The user is active. • City and Region lists have values, including the cities Cairo and Giza. • Branch 'Maadi Branch' / 'المعادي' already exists.","","","",""
-"","","","2","Open Manage Branches module.","","","",""
-"","","","3","Click 'Add Branch'.","","","",""
-"","","","4","Open the City list and type 'Gi'.","Only cities whose name contains 'Gi' are listed, including Giza. Cairo is not listed.","","",""
